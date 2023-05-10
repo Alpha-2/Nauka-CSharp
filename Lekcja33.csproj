@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E03DA8FD-83F0-4FC1-831B-928ABA7D9CD0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Lekcja33</RootNamespace>
+    <AssemblyName>Lekcja33</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CSharp nauka\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="CSharp nauka\Program.cs" />
+    <Compile Include="CSharp nauka\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja 16,5\Czlowiek.cs" />
+    <Compile Include="Lekcja 16,5\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja 16,5\Program.cs" />
+    <Compile Include="Lekcja 16,5\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja 19\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja 19\Program.cs" />
+    <Compile Include="Lekcja 19\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja 20\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja 20\Program.cs" />
+    <Compile Include="Lekcja 20\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja13\Czlowiek.cs" />
+    <Compile Include="Lekcja13\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja13\Program.cs" />
+    <Compile Include="Lekcja13\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja15\Czlowiek.cs" />
+    <Compile Include="Lekcja15\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja15\Program.cs" />
+    <Compile Include="Lekcja15\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja16\Czlowiek.cs" />
+    <Compile Include="Lekcja16\CzlowiekStatic.cs" />
+    <Compile Include="Lekcja16\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja16\Program.cs" />
+    <Compile Include="Lekcja16\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja18\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja18\Program.cs" />
+    <Compile Include="Lekcja18\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja21\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja21\Program.cs" />
+    <Compile Include="Lekcja21\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja22\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja22\Program.cs" />
+    <Compile Include="Lekcja22\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja23\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja23\Program.cs" />
+    <Compile Include="Lekcja23\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja24\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja24\Program.cs" />
+    <Compile Include="Lekcja24\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja25\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja25\Program.cs" />
+    <Compile Include="Lekcja25\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja26\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja26\Program.cs" />
+    <Compile Include="Lekcja26\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja27\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja27\Program.cs" />
+    <Compile Include="Lekcja27\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja28\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja28\Postac.cs" />
+    <Compile Include="Lekcja28\Postacie\Mag.cs" />
+    <Compile Include="Lekcja28\Program.cs" />
+    <Compile Include="Lekcja28\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja29\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja29\Program.cs" />
+    <Compile Include="Lekcja29\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja30\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja30\Program.cs" />
+    <Compile Include="Lekcja30\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja31\Enums\PoryRoku.cs" />
+    <Compile Include="Lekcja31\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja31\Program.cs" />
+    <Compile Include="Lekcja31\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja32\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja32\Program.cs" />
+    <Compile Include="Lekcja32\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja33\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja33\Program.cs" />
+    <Compile Include="Lekcja33\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja34\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja34\Program.cs" />
+    <Compile Include="Lekcja34\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja35\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja35\Program.cs" />
+    <Compile Include="Lekcja35\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja36\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja36\Program.cs" />
+    <Compile Include="Lekcja36\Properties\AssemblyInfo.cs" />
+    <Compile Include="Next2\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Next2\Program.cs" />
+    <Compile Include="Next2\Properties\AssemblyInfo.cs" />
+    <Compile Include="next3\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="next3\Program.cs" />
+    <Compile Include="next3\Properties\AssemblyInfo.cs" />
+    <Compile Include="Next4\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Next4\Program.cs" />
+    <Compile Include="Next4\Properties\AssemblyInfo.cs" />
+    <Compile Include="next\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="next\Program.cs" />
+    <Compile Include="next\Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tak2\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Tak2\Program.cs" />
+    <Compile Include="Tak2\Properties\AssemblyInfo.cs" />
+    <Compile Include="Lekcja2\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Lekcja2\Program.cs" />
+    <Compile Include="Lekcja2\Properties\AssemblyInfo.cs" />
+    <Compile Include="Yes\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Yes\Program.cs" />
+    <Compile Include="Yes\Properties\AssemblyInfo.cs" />
+    <Compile Include="Yes\Reputation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="CSharp nauka\.vs\Lekcja 17\v17\.suo" />
+    <None Include="CSharp nauka\App.config" />
+    <None Include="CSharp nauka\bin\Debug\CSharp nauka.exe.config" />
+    <None Include="CSharp nauka\Lekcja17.csproj" />
+    <None Include="CSharp nauka\obj\Debug\CSharp nauka.csproj.AssemblyReference.cache" />
+    <None Include="CSharp nauka\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="CSharp nauka\obj\Debug\Lekcja17.csproj.AssemblyReference.cache" />
+    <None Include="CSharp nauka\obj\Debug\Lekcja17.csproj.CoreCompileInputs.cache" />
+    <None Include="CSharp nauka\obj\Debug\Lekcja17.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja 16,5\.vs\Lekcja 16,5\v17\.suo" />
+    <None Include="Lekcja 16,5\App.config" />
+    <None Include="Lekcja 16,5\bin\Debug\Lekcja 16,5.exe.config" />
+    <None Include="Lekcja 16,5\Lekcja 16,5.csproj" />
+    <None Include="Lekcja 16,5\obj\Debug\build.force" />
+    <None Include="Lekcja 16,5\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja 16,5\obj\Debug\Lekcja 16,5.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja 16,5\obj\Debug\Lekcja 16,5.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja 16,5\obj\Debug\Lekcja 16,5.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja 19\.vs\Lekcja 19\v17\.suo" />
+    <None Include="Lekcja 19\App.config" />
+    <None Include="Lekcja 19\bin\Debug\Lekcja 19.exe.config" />
+    <None Include="Lekcja 19\Lekcja 19.csproj" />
+    <None Include="Lekcja 19\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja 19\obj\Debug\Lekcja 19.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja 19\obj\Debug\Lekcja 19.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja 19\obj\Debug\Lekcja 19.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja 20\.vs\Lekcja 20\v17\.suo" />
+    <None Include="Lekcja 20\App.config" />
+    <None Include="Lekcja 20\bin\Debug\Lekcja 20.exe.config" />
+    <None Include="Lekcja 20\Lekcja 20.csproj" />
+    <None Include="Lekcja 20\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja 20\obj\Debug\Lekcja 20.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja 20\obj\Debug\Lekcja 20.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja 20\obj\Debug\Lekcja 20.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja13\.vs\Lekcja13\v17\.suo" />
+    <None Include="Lekcja13\App.config" />
+    <None Include="Lekcja13\bin\Debug\Lekcja13.exe.config" />
+    <None Include="Lekcja13\Lekcja14.csproj" />
+    <None Include="Lekcja13\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja13\obj\Debug\Lekcja13.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja13\obj\Debug\Lekcja13.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja13\obj\Debug\Lekcja13.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja13\obj\Debug\Lekcja14.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja13\obj\Debug\Lekcja14.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja13\obj\Debug\Lekcja14.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja15\.vs\Lekcja15\v17\.suo" />
+    <None Include="Lekcja15\App.config" />
+    <None Include="Lekcja15\bin\Debug\Lekcja15.exe.config" />
+    <None Include="Lekcja15\Lekcja15.csproj" />
+    <None Include="Lekcja15\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja15\obj\Debug\Lekcja15.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja15\obj\Debug\Lekcja15.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja15\obj\Debug\Lekcja15.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja16\.vs\Lekcja16\v17\.suo" />
+    <None Include="Lekcja16\App.config" />
+    <None Include="Lekcja16\bin\Debug\Lekcja16.exe.config" />
+    <None Include="Lekcja16\Lekcja16.csproj" />
+    <None Include="Lekcja16\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja16\obj\Debug\Lekcja16.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja16\obj\Debug\Lekcja16.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja16\obj\Debug\Lekcja16.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja18\.vs\Lekcja18\v17\.suo" />
+    <None Include="Lekcja18\App.config" />
+    <None Include="Lekcja18\bin\Debug\Lekcja18.exe.config" />
+    <None Include="Lekcja18\Lekcja18.csproj" />
+    <None Include="Lekcja18\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja18\obj\Debug\Lekcja18.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja18\obj\Debug\Lekcja18.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja18\obj\Debug\Lekcja18.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja21\.vs\Lekcja21\v17\.suo" />
+    <None Include="Lekcja21\App.config" />
+    <None Include="Lekcja21\bin\Debug\Lekcja21.exe.config" />
+    <None Include="Lekcja21\Lekcja21.csproj" />
+    <None Include="Lekcja21\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja21\obj\Debug\Lekcja21.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja21\obj\Debug\Lekcja21.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja21\obj\Debug\Lekcja21.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja22\.vs\Lekcja22\v17\.suo" />
+    <None Include="Lekcja22\App.config" />
+    <None Include="Lekcja22\bin\Debug\Lekcja22.exe.config" />
+    <None Include="Lekcja22\Lekcja22.csproj" />
+    <None Include="Lekcja22\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja22\obj\Debug\Lekcja22.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja22\obj\Debug\Lekcja22.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja22\obj\Debug\Lekcja22.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja23\.vs\Lekcja23\v17\.suo" />
+    <None Include="Lekcja23\App.config" />
+    <None Include="Lekcja23\bin\Debug\Lekcja23.exe.config" />
+    <None Include="Lekcja23\Lekcja23.csproj" />
+    <None Include="Lekcja23\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja23\obj\Debug\Lekcja23.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja23\obj\Debug\Lekcja23.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja23\obj\Debug\Lekcja23.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja24\.vs\Lekcja24\v17\.suo" />
+    <None Include="Lekcja24\App.config" />
+    <None Include="Lekcja24\bin\Debug\Lekcja24.exe.config" />
+    <None Include="Lekcja24\Lekcja24.csproj" />
+    <None Include="Lekcja24\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja24\obj\Debug\Lekcja24.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja24\obj\Debug\Lekcja24.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja24\obj\Debug\Lekcja24.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja25\.vs\Lekcja25\v17\.suo" />
+    <None Include="Lekcja25\App.config" />
+    <None Include="Lekcja25\bin\Debug\Lekcja25.exe.config" />
+    <None Include="Lekcja25\Lekcja25.csproj" />
+    <None Include="Lekcja25\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja25\obj\Debug\Lekcja25.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja25\obj\Debug\Lekcja25.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja25\obj\Debug\Lekcja25.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja26\.vs\Lekcja26\v17\.suo" />
+    <None Include="Lekcja26\App.config" />
+    <None Include="Lekcja26\bin\Debug\Lekcja26.exe.config" />
+    <None Include="Lekcja26\Lekcja26.csproj" />
+    <None Include="Lekcja26\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja26\obj\Debug\Lekcja26.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja26\obj\Debug\Lekcja26.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja26\obj\Debug\Lekcja26.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja27\.vs\Lekcja27\v17\.suo" />
+    <None Include="Lekcja27\App.config" />
+    <None Include="Lekcja27\bin\Debug\Lekcja27.exe.config" />
+    <None Include="Lekcja27\Lekcja27.csproj" />
+    <None Include="Lekcja27\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja27\obj\Debug\Lekcja27.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja27\obj\Debug\Lekcja27.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja27\obj\Debug\Lekcja27.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja28\.vs\Lekcja28\v17\.suo" />
+    <None Include="Lekcja28\App.config" />
+    <None Include="Lekcja28\bin\Debug\Lekcja28.exe.config" />
+    <None Include="Lekcja28\Lekcja28.csproj" />
+    <None Include="Lekcja28\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja28\obj\Debug\Lekcja28.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja28\obj\Debug\Lekcja28.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja28\obj\Debug\Lekcja28.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja29\.vs\Lekcja29\v17\.suo" />
+    <None Include="Lekcja29\App.config" />
+    <None Include="Lekcja29\bin\Debug\Lekcja29.exe.config" />
+    <None Include="Lekcja29\Lekcja29.csproj" />
+    <None Include="Lekcja29\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja29\obj\Debug\Lekcja29.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja29\obj\Debug\Lekcja29.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja29\obj\Debug\Lekcja29.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja30\.vs\Lekcja30\v17\.suo" />
+    <None Include="Lekcja30\App.config" />
+    <None Include="Lekcja30\bin\Debug\Lekcja30.exe.config" />
+    <None Include="Lekcja30\Lekcja30.csproj" />
+    <None Include="Lekcja30\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja30\obj\Debug\Lekcja30.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja30\obj\Debug\Lekcja30.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja30\obj\Debug\Lekcja30.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja31\.vs\Lekcja31\v17\.suo" />
+    <None Include="Lekcja31\App.config" />
+    <None Include="Lekcja31\bin\Debug\Lekcja31.exe.config" />
+    <None Include="Lekcja31\Lekcja31.csproj" />
+    <None Include="Lekcja31\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja31\obj\Debug\Lekcja31.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja31\obj\Debug\Lekcja31.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja31\obj\Debug\Lekcja31.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja32\.vs\Lekcja32\v17\.suo" />
+    <None Include="Lekcja32\App.config" />
+    <None Include="Lekcja32\bin\Debug\Lekcja32.exe.config" />
+    <None Include="Lekcja32\Lekcja32.csproj" />
+    <None Include="Lekcja32\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja32\obj\Debug\Lekcja32.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja32\obj\Debug\Lekcja32.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja32\obj\Debug\Lekcja32.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja33\.vs\Lekcja33\FileContentIndex\2b8d0144-ea7e-4610-9fa3-a87358fa8d18.vsidx" />
+    <None Include="Lekcja33\.vs\Lekcja33\FileContentIndex\d1e38aab-732e-4f5c-97a2-8849d827a6bb.vsidx" />
+    <None Include="Lekcja33\.vs\Lekcja33\FileContentIndex\read.lock" />
+    <None Include="Lekcja33\.vs\Lekcja33\v17\.suo" />
+    <None Include="Lekcja33\App.config" />
+    <None Include="Lekcja33\bin\Debug\Lekcja33.exe.config" />
+    <None Include="Lekcja33\Lekcja33.csproj" />
+    <None Include="Lekcja33\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja33\obj\Debug\Lekcja33.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja33\obj\Debug\Lekcja33.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja33\obj\Debug\Lekcja33.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja34\.vs\Lekcja34\FileContentIndex\ee49157f-8b5b-40b9-8fdf-fb65c1a21fc2.vsidx" />
+    <None Include="Lekcja34\.vs\Lekcja34\FileContentIndex\read.lock" />
+    <None Include="Lekcja34\.vs\Lekcja34\v17\.suo" />
+    <None Include="Lekcja34\App.config" />
+    <None Include="Lekcja34\bin\Debug\Lekcja34.exe.config" />
+    <None Include="Lekcja34\Lekcja34.csproj" />
+    <None Include="Lekcja34\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja34\obj\Debug\Lekcja34.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja34\obj\Debug\Lekcja34.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja34\obj\Debug\Lekcja34.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja35\.vs\Lekcja35\FileContentIndex\4fb5993a-bea5-487a-ae78-b64b9da318d9.vsidx" />
+    <None Include="Lekcja35\.vs\Lekcja35\FileContentIndex\read.lock" />
+    <None Include="Lekcja35\.vs\Lekcja35\v17\.suo" />
+    <None Include="Lekcja35\App.config" />
+    <None Include="Lekcja35\bin\Debug\Lekcja35.exe.config" />
+    <None Include="Lekcja35\Lekcja35.csproj" />
+    <None Include="Lekcja35\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja35\obj\Debug\Lekcja35.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja35\obj\Debug\Lekcja35.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja35\obj\Debug\Lekcja35.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja36\.vs\Lekcja36\FileContentIndex\8d284634-ac99-43fa-a5a8-81ec3b66aad1.vsidx" />
+    <None Include="Lekcja36\.vs\Lekcja36\FileContentIndex\read.lock" />
+    <None Include="Lekcja36\.vs\Lekcja36\v17\.suo" />
+    <None Include="Lekcja36\App.config" />
+    <None Include="Lekcja36\bin\Debug\Lekcja36.exe.config" />
+    <None Include="Lekcja36\Lekcja36.csproj" />
+    <None Include="Lekcja36\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja36\obj\Debug\Lekcja36.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja36\obj\Debug\Lekcja36.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja36\obj\Debug\Lekcja36.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Next2\.vs\Next2\v17\.suo" />
+    <None Include="Next2\App.config" />
+    <None Include="Next2\bin\Debug\Next2.exe.config" />
+    <None Include="Next2\Next2.csproj" />
+    <None Include="Next2\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Next2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Next2\obj\Debug\Next2.csproj.AssemblyReference.cache" />
+    <None Include="Next2\obj\Debug\Next2.csproj.CoreCompileInputs.cache" />
+    <None Include="Next2\obj\Debug\Next2.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="next3\.vs\next3\v17\.suo" />
+    <None Include="next3\App.config" />
+    <None Include="next3\bin\Debug\next3.exe.config" />
+    <None Include="next3\next3.csproj" />
+    <None Include="next3\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="next3\obj\Debug\next3.csproj.AssemblyReference.cache" />
+    <None Include="next3\obj\Debug\next3.csproj.CoreCompileInputs.cache" />
+    <None Include="next3\obj\Debug\next3.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Next4\.vs\Next4\v17\.suo" />
+    <None Include="Next4\App.config" />
+    <None Include="Next4\bin\Debug\Next4.exe.config" />
+    <None Include="Next4\Next4.csproj" />
+    <None Include="Next4\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Next4\obj\Debug\Next4.csproj.AssemblyReference.cache" />
+    <None Include="Next4\obj\Debug\Next4.csproj.CoreCompileInputs.cache" />
+    <None Include="Next4\obj\Debug\Next4.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="next\.vs\next\v17\.suo" />
+    <None Include="next\App.config" />
+    <None Include="next\bin\Debug\next.exe.config" />
+    <None Include="next\next.csproj" />
+    <None Include="next\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="next\obj\Debug\next.csproj.AssemblyReference.cache" />
+    <None Include="next\obj\Debug\next.csproj.CopyComplete" />
+    <None Include="next\obj\Debug\next.csproj.CoreCompileInputs.cache" />
+    <None Include="next\obj\Debug\next.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="next\packages.config" />
+    <None Include="next\packages\Newtonsoft.Json.13.0.2\.signature.p7s" />
+    <None Include="next\packages\Newtonsoft.Json.13.0.2\LICENSE.md" />
+    <None Include="next\packages\Newtonsoft.Json.13.0.2\Newtonsoft.Json.13.0.2.nupkg" />
+    <None Include="next\packages\Newtonsoft.Json.13.0.2\README.md" />
+    <None Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\.signature.p7s" />
+    <None Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\System.Runtime.CompilerServices.Unsafe.4.5.2.nupkg" />
+    <None Include="next\packages\Unity.5.11.10\.signature.p7s" />
+    <None Include="next\packages\Unity.5.11.10\Unity.5.11.10.nupkg" />
+    <None Include="Tak2\.vs\Tak2\v17\.suo" />
+    <None Include="Tak2\App.config" />
+    <None Include="Tak2\bin\Debug\Tak2.exe.config" />
+    <None Include="Tak2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Tak2\obj\Debug\Tak2.csproj.AssemblyReference.cache" />
+    <None Include="Tak2\obj\Debug\Tak2.csproj.CoreCompileInputs.cache" />
+    <None Include="Tak2\obj\Debug\Tak2.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Tak2\Tak2.csproj" />
+    <None Include="Lekcja2\.vs\Tak\v17\.suo" />
+    <None Include="Lekcja2\App.config" />
+    <None Include="Lekcja2\bin\Debug\Tak.exe.config" />
+    <None Include="Lekcja2\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Lekcja2\obj\Debug\Tak.csproj.AssemblyReference.cache" />
+    <None Include="Lekcja2\obj\Debug\Tak.csproj.CoreCompileInputs.cache" />
+    <None Include="Lekcja2\obj\Debug\Tak.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Lekcja2\Tak.csproj" />
+    <None Include="Yes\.vs\Yes\v17\.suo" />
+    <None Include="Yes\App.config" />
+    <None Include="Yes\bin\Debug\Yes.exe.config" />
+    <None Include="Yes\ObiektoweProgramowanieCSharp.csproj" />
+    <None Include="Yes\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Yes\obj\Debug\ObiektoweProgramowanieCSharp.csproj.AssemblyReference.cache" />
+    <None Include="Yes\obj\Debug\ObiektoweProgramowanieCSharp.csproj.CoreCompileInputs.cache" />
+    <None Include="Yes\obj\Debug\ObiektoweProgramowanieCSharp.csproj.SuggestedBindingRedirects.cache" />
+    <None Include="Yes\obj\Debug\Yes.csproj.AssemblyReference.cache" />
+    <None Include="Yes\obj\Debug\Yes.csproj.CoreCompileInputs.cache" />
+    <None Include="Yes\obj\Debug\Yes.csproj.SuggestedBindingRedirects.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CSharp nauka\bin\Debug\CSharp nauka.exe" />
+    <Content Include="CSharp nauka\bin\Debug\CSharp nauka.pdb" />
+    <Content Include="CSharp nauka\Lekcja 17.sln" />
+    <Content Include="CSharp nauka\obj\Debug\CSharp nauka.exe" />
+    <Content Include="CSharp nauka\obj\Debug\CSharp nauka.pdb" />
+    <Content Include="CSharp nauka\obj\Debug\Lekcja17.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja 16,5\bin\Debug\Lekcja 16,5.exe" />
+    <Content Include="Lekcja 16,5\bin\Debug\Lekcja 16,5.pdb" />
+    <Content Include="Lekcja 16,5\Lekcja 16,5.sln" />
+    <Content Include="Lekcja 16,5\obj\Debug\Lekcja 16,5.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja 16,5\obj\Debug\Lekcja 16,5.exe" />
+    <Content Include="Lekcja 16,5\obj\Debug\Lekcja 16,5.pdb" />
+    <Content Include="Lekcja 19\bin\Debug\Lekcja 19.exe" />
+    <Content Include="Lekcja 19\bin\Debug\Lekcja 19.pdb" />
+    <Content Include="Lekcja 19\Lekcja 19.sln" />
+    <Content Include="Lekcja 19\obj\Debug\Lekcja 19.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja 19\obj\Debug\Lekcja 19.exe" />
+    <Content Include="Lekcja 19\obj\Debug\Lekcja 19.pdb" />
+    <Content Include="Lekcja 20\bin\Debug\Lekcja 20.exe" />
+    <Content Include="Lekcja 20\bin\Debug\Lekcja 20.pdb" />
+    <Content Include="Lekcja 20\Lekcja 20.sln" />
+    <Content Include="Lekcja 20\obj\Debug\Lekcja 20.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja 20\obj\Debug\Lekcja 20.exe" />
+    <Content Include="Lekcja 20\obj\Debug\Lekcja 20.pdb" />
+    <Content Include="Lekcja13\bin\Debug\Lekcja13.exe" />
+    <Content Include="Lekcja13\bin\Debug\Lekcja13.pdb" />
+    <Content Include="Lekcja13\Lekcja13.sln" />
+    <Content Include="Lekcja13\obj\Debug\Lekcja13.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja13\obj\Debug\Lekcja13.exe" />
+    <Content Include="Lekcja13\obj\Debug\Lekcja13.pdb" />
+    <Content Include="Lekcja13\obj\Debug\Lekcja14.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja15\bin\Debug\Lekcja15.exe" />
+    <Content Include="Lekcja15\bin\Debug\Lekcja15.pdb" />
+    <Content Include="Lekcja15\Lekcja15.sln" />
+    <Content Include="Lekcja15\obj\Debug\Lekcja15.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja15\obj\Debug\Lekcja15.exe" />
+    <Content Include="Lekcja15\obj\Debug\Lekcja15.pdb" />
+    <Content Include="Lekcja16\bin\Debug\Lekcja16.exe" />
+    <Content Include="Lekcja16\bin\Debug\Lekcja16.pdb" />
+    <Content Include="Lekcja16\Lekcja16.sln" />
+    <Content Include="Lekcja16\obj\Debug\Lekcja16.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja16\obj\Debug\Lekcja16.exe" />
+    <Content Include="Lekcja16\obj\Debug\Lekcja16.pdb" />
+    <Content Include="Lekcja18\bin\Debug\Lekcja18.exe" />
+    <Content Include="Lekcja18\bin\Debug\Lekcja18.pdb" />
+    <Content Include="Lekcja18\Lekcja18.sln" />
+    <Content Include="Lekcja18\obj\Debug\Lekcja18.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja18\obj\Debug\Lekcja18.exe" />
+    <Content Include="Lekcja18\obj\Debug\Lekcja18.pdb" />
+    <Content Include="Lekcja21\bin\Debug\Lekcja21.exe" />
+    <Content Include="Lekcja21\bin\Debug\Lekcja21.pdb" />
+    <Content Include="Lekcja21\Lekcja21.sln" />
+    <Content Include="Lekcja21\obj\Debug\Lekcja21.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja21\obj\Debug\Lekcja21.exe" />
+    <Content Include="Lekcja21\obj\Debug\Lekcja21.pdb" />
+    <Content Include="Lekcja22\bin\Debug\Lekcja22.exe" />
+    <Content Include="Lekcja22\bin\Debug\Lekcja22.pdb" />
+    <Content Include="Lekcja22\Lekcja22.sln" />
+    <Content Include="Lekcja22\obj\Debug\Lekcja22.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja22\obj\Debug\Lekcja22.exe" />
+    <Content Include="Lekcja22\obj\Debug\Lekcja22.pdb" />
+    <Content Include="Lekcja23\bin\Debug\Lekcja23.exe" />
+    <Content Include="Lekcja23\bin\Debug\Lekcja23.pdb" />
+    <Content Include="Lekcja23\Lekcja23.sln" />
+    <Content Include="Lekcja23\obj\Debug\Lekcja23.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja23\obj\Debug\Lekcja23.exe" />
+    <Content Include="Lekcja23\obj\Debug\Lekcja23.pdb" />
+    <Content Include="Lekcja24\bin\Debug\Lekcja24.exe" />
+    <Content Include="Lekcja24\bin\Debug\Lekcja24.pdb" />
+    <Content Include="Lekcja24\Lekcja24.sln" />
+    <Content Include="Lekcja24\obj\Debug\Lekcja24.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja24\obj\Debug\Lekcja24.exe" />
+    <Content Include="Lekcja24\obj\Debug\Lekcja24.pdb" />
+    <Content Include="Lekcja25\bin\Debug\Lekcja25.exe" />
+    <Content Include="Lekcja25\bin\Debug\Lekcja25.pdb" />
+    <Content Include="Lekcja25\Lekcja25.sln" />
+    <Content Include="Lekcja25\obj\Debug\Lekcja25.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja25\obj\Debug\Lekcja25.exe" />
+    <Content Include="Lekcja25\obj\Debug\Lekcja25.pdb" />
+    <Content Include="Lekcja26\bin\Debug\Lekcja26.exe" />
+    <Content Include="Lekcja26\bin\Debug\Lekcja26.pdb" />
+    <Content Include="Lekcja26\Lekcja26.sln" />
+    <Content Include="Lekcja26\obj\Debug\Lekcja26.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja26\obj\Debug\Lekcja26.exe" />
+    <Content Include="Lekcja26\obj\Debug\Lekcja26.pdb" />
+    <Content Include="Lekcja27\bin\Debug\Lekcja27.exe" />
+    <Content Include="Lekcja27\bin\Debug\Lekcja27.pdb" />
+    <Content Include="Lekcja27\Lekcja27.sln" />
+    <Content Include="Lekcja27\obj\Debug\Lekcja27.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja27\obj\Debug\Lekcja27.exe" />
+    <Content Include="Lekcja27\obj\Debug\Lekcja27.pdb" />
+    <Content Include="Lekcja28\bin\Debug\Lekcja28.exe" />
+    <Content Include="Lekcja28\bin\Debug\Lekcja28.pdb" />
+    <Content Include="Lekcja28\Lekcja28.sln" />
+    <Content Include="Lekcja28\obj\Debug\Lekcja28.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja28\obj\Debug\Lekcja28.exe" />
+    <Content Include="Lekcja28\obj\Debug\Lekcja28.pdb" />
+    <Content Include="Lekcja29\bin\Debug\Lekcja29.exe" />
+    <Content Include="Lekcja29\bin\Debug\Lekcja29.pdb" />
+    <Content Include="Lekcja29\Lekcja29.sln" />
+    <Content Include="Lekcja29\obj\Debug\Lekcja29.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja29\obj\Debug\Lekcja29.exe" />
+    <Content Include="Lekcja29\obj\Debug\Lekcja29.pdb" />
+    <Content Include="Lekcja30\bin\Debug\Lekcja30.exe" />
+    <Content Include="Lekcja30\bin\Debug\Lekcja30.pdb" />
+    <Content Include="Lekcja30\Lekcja30.sln" />
+    <Content Include="Lekcja30\obj\Debug\Lekcja30.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja30\obj\Debug\Lekcja30.exe" />
+    <Content Include="Lekcja30\obj\Debug\Lekcja30.pdb" />
+    <Content Include="Lekcja31\bin\Debug\Lekcja31.exe" />
+    <Content Include="Lekcja31\bin\Debug\Lekcja31.pdb" />
+    <Content Include="Lekcja31\Lekcja31.sln" />
+    <Content Include="Lekcja31\obj\Debug\Lekcja31.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja31\obj\Debug\Lekcja31.exe" />
+    <Content Include="Lekcja31\obj\Debug\Lekcja31.pdb" />
+    <Content Include="Lekcja32\bin\Debug\Lekcja32.exe" />
+    <Content Include="Lekcja32\bin\Debug\Lekcja32.pdb" />
+    <Content Include="Lekcja32\Lekcja32.sln" />
+    <Content Include="Lekcja32\obj\Debug\Lekcja32.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja32\obj\Debug\Lekcja32.exe" />
+    <Content Include="Lekcja32\obj\Debug\Lekcja32.pdb" />
+    <Content Include="Lekcja33\bin\Debug\Lekcja33.exe" />
+    <Content Include="Lekcja33\bin\Debug\Lekcja33.pdb" />
+    <Content Include="Lekcja33\Lekcja33.sln" />
+    <Content Include="Lekcja33\obj\Debug\Lekcja33.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja33\obj\Debug\Lekcja33.exe" />
+    <Content Include="Lekcja33\obj\Debug\Lekcja33.pdb" />
+    <Content Include="Lekcja34\bin\Debug\Lekcja34.exe" />
+    <Content Include="Lekcja34\bin\Debug\Lekcja34.pdb" />
+    <Content Include="Lekcja34\Lekcja34.sln" />
+    <Content Include="Lekcja34\obj\Debug\Lekcja34.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja34\obj\Debug\Lekcja34.exe" />
+    <Content Include="Lekcja34\obj\Debug\Lekcja34.pdb" />
+    <Content Include="Lekcja35\bin\Debug\Lekcja35.exe" />
+    <Content Include="Lekcja35\bin\Debug\Lekcja35.pdb" />
+    <Content Include="Lekcja35\bin\Debug\plik.txt" />
+    <Content Include="Lekcja35\Lekcja35.sln" />
+    <Content Include="Lekcja35\obj\Debug\Lekcja35.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja35\obj\Debug\Lekcja35.exe" />
+    <Content Include="Lekcja35\obj\Debug\Lekcja35.pdb" />
+    <Content Include="Lekcja36\bin\Debug\Lekcja36.exe" />
+    <Content Include="Lekcja36\bin\Debug\Lekcja36.pdb" />
+    <Content Include="Lekcja36\Lekcja36.sln" />
+    <Content Include="Lekcja36\obj\Debug\Lekcja36.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja36\obj\Debug\Lekcja36.exe" />
+    <Content Include="Lekcja36\obj\Debug\Lekcja36.pdb" />
+    <Content Include="Next2\bin\Debug\Next2.exe" />
+    <Content Include="Next2\bin\Debug\Next2.pdb" />
+    <Content Include="Next2\Next2.sln" />
+    <Content Include="Next2\obj\Debug\Next2.csproj.FileListAbsolute.txt" />
+    <Content Include="Next2\obj\Debug\Next2.exe" />
+    <Content Include="Next2\obj\Debug\Next2.pdb" />
+    <Content Include="next3\bin\Debug\next3.exe" />
+    <Content Include="next3\bin\Debug\next3.pdb" />
+    <Content Include="next3\next3.sln" />
+    <Content Include="next3\obj\Debug\next3.csproj.FileListAbsolute.txt" />
+    <Content Include="next3\obj\Debug\next3.exe" />
+    <Content Include="next3\obj\Debug\next3.pdb" />
+    <Content Include="Next4\bin\Debug\Next4.exe" />
+    <Content Include="Next4\bin\Debug\Next4.pdb" />
+    <Content Include="Next4\Next4.csproj.user" />
+    <Content Include="Next4\Next4.sln" />
+    <Content Include="Next4\obj\Debug\Next4.csproj.FileListAbsolute.txt" />
+    <Content Include="Next4\obj\Debug\Next4.exe" />
+    <Content Include="Next4\obj\Debug\Next4.pdb" />
+    <Content Include="next\bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="next\bin\Debug\Newtonsoft.Json.xml" />
+    <Content Include="next\bin\Debug\next.exe" />
+    <Content Include="next\bin\Debug\next.pdb" />
+    <Content Include="next\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="next\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="next\bin\Debug\Unity.Abstractions.dll" />
+    <Content Include="next\bin\Debug\Unity.Abstractions.pdb" />
+    <Content Include="next\bin\Debug\Unity.Container.dll" />
+    <Content Include="next\bin\Debug\Unity.Container.pdb" />
+    <Content Include="next\next.sln" />
+    <Content Include="next\obj\Debug\next.csproj.FileListAbsolute.txt" />
+    <Content Include="next\obj\Debug\next.exe" />
+    <Content Include="next\obj\Debug\next.pdb" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net20\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net20\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net35\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net35\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net40\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net40\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net6.0\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\net6.0\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\netstandard1.0\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\netstandard1.0\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\netstandard1.3\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\netstandard1.3\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\netstandard2.0\Newtonsoft.Json.dll" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\lib\netstandard2.0\Newtonsoft.Json.xml" />
+    <Content Include="next\packages\Newtonsoft.Json.13.0.2\packageIcon.png" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netcoreapp2.0\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\LICENSE.TXT" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\ref\netstandard1.0\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\ref\netstandard2.0\System.Runtime.CompilerServices.Unsafe.xml" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\THIRD-PARTY-NOTICES.TXT" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\useSharedDesignerContext.txt" />
+    <Content Include="next\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\version.txt" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net40\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net40\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net40\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net40\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net45\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net45\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net45\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net45\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net46\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net46\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net46\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net46\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net47\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net47\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net47\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net47\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net48\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net48\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net48\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\net48\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp1.0\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp1.0\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp1.0\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp1.0\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp2.0\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp2.0\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp2.0\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp2.0\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp3.0\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp3.0\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp3.0\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netcoreapp3.0\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard1.0\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard1.0\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard1.0\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard1.0\Unity.Container.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard2.0\Unity.Abstractions.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard2.0\Unity.Abstractions.pdb" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard2.0\Unity.Container.dll" />
+    <Content Include="next\packages\Unity.5.11.10\lib\netstandard2.0\Unity.Container.pdb" />
+    <Content Include="Tak2\bin\Debug\Tak2.exe" />
+    <Content Include="Tak2\bin\Debug\Tak2.pdb" />
+    <Content Include="Tak2\obj\Debug\Tak2.csproj.FileListAbsolute.txt" />
+    <Content Include="Tak2\obj\Debug\Tak2.exe" />
+    <Content Include="Tak2\obj\Debug\Tak2.pdb" />
+    <Content Include="Tak2\Tak2.sln" />
+    <Content Include="Lekcja2\bin\Debug\Tak.exe" />
+    <Content Include="Lekcja2\bin\Debug\Tak.pdb" />
+    <Content Include="Lekcja2\obj\Debug\Tak.csproj.FileListAbsolute.txt" />
+    <Content Include="Lekcja2\obj\Debug\Tak.exe" />
+    <Content Include="Lekcja2\obj\Debug\Tak.pdb" />
+    <Content Include="Lekcja2\Tak.sln" />
+    <Content Include="Yes\bin\Debug\Yes.exe" />
+    <Content Include="Yes\bin\Debug\Yes.pdb" />
+    <Content Include="Yes\obj\Debug\ObiektoweProgramowanieCSharp.csproj.FileListAbsolute.txt" />
+    <Content Include="Yes\obj\Debug\Yes.csproj.FileListAbsolute.txt" />
+    <Content Include="Yes\obj\Debug\Yes.exe" />
+    <Content Include="Yes\obj\Debug\Yes.pdb" />
+    <Content Include="Yes\Yes.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CSharp nauka\bin\Release\" />
+    <Folder Include="CSharp nauka\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja 16,5\bin\Release\" />
+    <Folder Include="Lekcja 16,5\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja 19\bin\Release\" />
+    <Folder Include="Lekcja 19\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja 20\bin\Release\" />
+    <Folder Include="Lekcja 20\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja13\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja15\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja16\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja18\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja21\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja22\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja23\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja24\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja25\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja26\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja27\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja28\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja29\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja2\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja30\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja31\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja32\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja33\.vs\Lekcja33\FileContentIndex\merges\" />
+    <Folder Include="Lekcja33\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja34\.vs\Lekcja34\FileContentIndex\merges\" />
+    <Folder Include="Lekcja34\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja35\.vs\Lekcja35\FileContentIndex\merges\" />
+    <Folder Include="Lekcja35\obj\Debug\TempPE\" />
+    <Folder Include="Lekcja36\.vs\Lekcja36\FileContentIndex\merges\" />
+    <Folder Include="Lekcja36\obj\Debug\TempPE\" />
+    <Folder Include="Next2\bin\Release\" />
+    <Folder Include="Next2\obj\Debug\TempPE\" />
+    <Folder Include="next3\obj\Debug\TempPE\" />
+    <Folder Include="Next4\obj\Debug\TempPE\" />
+    <Folder Include="next\obj\Debug\TempPE\" />
+    <Folder Include="Tak2\obj\Debug\TempPE\" />
+    <Folder Include="Yes\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
